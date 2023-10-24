@@ -22,7 +22,7 @@ public class ProductController {
 
     @GetMapping("/welcome")
     public String welcome() {
-        return "Welcome!! This endpoint is secure.";
+        return "Welcome!! This endpoint is not secured.";
     }
 
     @GetMapping("/all")
